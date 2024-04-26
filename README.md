@@ -9,7 +9,7 @@
 
 
 <a href="https://www.npmjs.com/package/nayan-server"><img alt="npm version" src="https://img.shields.io/npm/v/nayan-server.svg?style=flat-square"></a>
-<img alt="version" src="https://img.shields.io/github/package-json/v/MR-NAYAN-404/nayan-server?label=github&style=flat-square">
+<img alt="version" src="https://img.shields.io/github/package-json/v/MOHAMMAD-NAYAN/nayan-server?label=github&style=flat-square">
 <a href="https://www.npmjs.com/package/nayan-server"><img src="https://img.shields.io/npm/dm/nayan-server.svg?style=flat-square" alt="npm downloads"></a><br>
 [![Socket Badge](https://socket.dev/api/badge/npm/package/nayan-server)](https://socket.dev/npm/package/nayan-server)
 
