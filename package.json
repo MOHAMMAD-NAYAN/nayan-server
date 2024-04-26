@@ -1,0 +1,52 @@
+{
+  "name": "nayan-server",
+  "version": "2.2.7",
+  "description": "Simple create api(Mohammad Nayan)",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node src/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MR-NAYAN-404/NAYAN-SERVER.git"
+  },
+  "keywords": [
+    "spotify",
+    "pintarest",
+    "gpt",
+    "img2text",
+    "textpro",
+    "photoxy",
+    "ip",
+    "ip2lucation",
+    "removebg",
+    "upscale",
+    "token",
+    "cookies",
+    "fbinfo",
+    "google",
+    "drive",
+    "google drive",
+    "website",
+    "web search",
+    "google web search",
+    "imagine",
+    "text2img",
+    "generate img",
+    "nayan"
+  ],
+  "author": "NAYAN",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MR-NAYAN-404/NAYAN-SERVER/issues"
+  },
+  "homepage": "https://github.com/MR-NAYAN-404/NAYAN-SERVER#readme",
+  "dependencies": {
+    "got": "^11.8.3",
+    "cheerio": "~1.0.0-rc.5",
+    "cookie": "^0.6.0",
+    "form-data": "^4.0.0",
+    "axios": "^1.6.5",
+    "nayan-media-downloader": ""
+  }
+}
