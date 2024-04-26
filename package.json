@@ -38,9 +38,9 @@
   "author": "NAYAN",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/MR-NAYAN-404/NAYAN-SERVER/issues"
+    "url": "https://github.com/MOHAMMAD-NAYAN/NAYAN-SERVER/issues"
   },
-  "homepage": "https://github.com/MR-NAYAN-404/NAYAN-SERVER#readme",
+  "homepage": "https://github.com/MOHAMMAD-NAYAN/NAYAN-SERVER#readme",
   "dependencies": {
     "got": "^11.8.3",
     "cheerio": "~1.0.0-rc.5",
