@@ -246,4 +246,18 @@ const promt = "cat, 4k" // your promt
   console.log(data)
 });
 ```
+## Usage Text To Voice 
+```bash
+Name
+Male: Bashkar, Pradeep
+Female: Nabanita, Tanisha
+```
+```js
+const { text2voice } = require('nayan-server')
+const text = 'আমার নাম নয়ন';
+const name = 'Tanisha';
+text2voice(text, name).then(data => {
+console.log(data)
+}
+```
 
