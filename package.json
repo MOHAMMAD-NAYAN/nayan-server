@@ -1,6 +1,6 @@
 {
   "name": "nayan-server",
-  "version": "2.3.1",
+  "version": "2.3.2",
   "description": "Simple create api(Mohammad Nayan)",
   "main": "src/index.js",
   "scripts": {
