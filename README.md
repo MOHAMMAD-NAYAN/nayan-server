@@ -34,6 +34,7 @@
 • fbinfo
 • GDLink
 • google web search
+• text to voice
 ```
 
 <h3 align="center">
@@ -258,6 +259,6 @@ const text = 'আমার নাম নয়ন';
 const name = 'Tanisha';
 text2voice(text, name).then(data => {
 console.log(data)
-}
+})
 ```
 
