@@ -176,7 +176,7 @@ const text = "nayan" // your text
 .then((data) => console.log(data))
 .catch((err) => console.log(err));
 ```
-## Usage Textpro 2 text 
+## Usage Ephoto 2 text 
 ```js
 const {ephoto} = require("nayan-server");
 
