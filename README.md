@@ -27,6 +27,7 @@
 • pintarest
 • textpro
 • photoxy
+• ephoto
 • ip2lucation
 • removebg
 • upscale
@@ -160,6 +161,31 @@ const text = "Mohammad"//your text
 const text2 = "nayan"// your text
 
     textpro(url, [text, text2])
+.then((data) => console.log(data))
+.catch((err) => console.log(err))
+```
+## Usaage Ephoto
+```JS
+const {ephoto} = require("nayan-server");
+
+const url = "url" // ephoto url
+
+const text = "nayan" // your text
+
+    ephoto(url, [text])
+.then((data) => console.log(data))
+.catch((err) => console.log(err));
+```
+## Usage Textpro 2 text 
+```js
+const {ephoto} = require("nayan-server");
+
+const url = "url" // ephoto 2 text input url
+
+const text = "Mohammad"//your text
+const text2 = "nayan"// your text
+
+    ephoto(url, [text, text2])
 .then((data) => console.log(data))
 .catch((err) => console.log(err))
 ```
