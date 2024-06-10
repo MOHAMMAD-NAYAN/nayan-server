@@ -1,6 +1,6 @@
 {
   "name": "nayan-server",
-  "version": "2.3.4",
+  "version": "2.3.5",
   "description": "Simple create api(Mohammad Nayan)",
   "main": "src/index.js",
   "scripts": {
@@ -37,6 +37,7 @@
     "generate img",
     "text to voice",
     "text2voice",
+    "faceswap",
     "nayan"
   ],
   "author": "NAYAN",
