@@ -11,7 +11,6 @@
 <a href="https://www.npmjs.com/package/nayan-server"><img alt="npm version" src="https://img.shields.io/npm/v/nayan-server.svg?style=flat-square"></a>
 <img alt="version" src="https://img.shields.io/github/package-json/v/MOHAMMAD-NAYAN/nayan-server?label=github&style=flat-square">
 <a href="https://www.npmjs.com/package/nayan-server"><img src="https://img.shields.io/npm/dm/nayan-server.svg?style=flat-square" alt="npm downloads"></a><br>
-[![Socket Badge](https://socket.dev/api/badge/npm/package/nayan-server)](https://socket.dev/npm/package/nayan-server)
 
 ## Instalation :
 ```bash
@@ -36,6 +35,7 @@
 • GDLink
 • google web search
 • text to voice
+• faceswap
 ```
 
 <h3 align="center">
@@ -286,6 +286,16 @@ const name = 'Tanisha';
 text2voice(text, name).then(data => {
 console.log(data)
 })
+```
+## Usage faceswap 
+```js
+const { faceswap } = require("nayan-server");
+
+const sourceUrl = "link" //past source pic link
+const targetUrl = "link"// past target pic link
+  faceswap(sourceUrl, targetUrl).then(data => {
+  console.log(data)
+});
 ```
 ```bash
 CONTACT ME🐱
