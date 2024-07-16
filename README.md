@@ -36,6 +36,7 @@
 • google web search
 • text to voice
 • faceswap
+• bdnews
 ```
 
 <h3 align="center">
@@ -296,6 +297,22 @@ const targetUrl = "link"// past target pic link
   faceswap(sourceUrl, targetUrl).then(data => {
   console.log(data)
 });
+```
+
+## Usage Bdnews 
+```js
+const { bdnews } = require('nayan-server');
+
+async function main() {
+    try {
+        const news = await bdnews();
+        console.log(news);
+    } catch (error) {
+        console.error("Error fetching news news:", error);
+    }
+}
+
+main();
 ```
 ```bash
 CONTACT ME🐱
