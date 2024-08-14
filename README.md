@@ -284,7 +284,8 @@ Female: Nabanita, Tanisha
 const { text2voice } = require('nayan-server')
 const text = 'আমার নাম নয়ন';
 const name = 'Tanisha';
-text2voice(text, name).then(data => {
+const file = "nayan.mp3"
+text2voice(text, name, file).then(data => {
 console.log(data)
 })
 ```
