@@ -1,6 +1,6 @@
 {
   "name": "nayan-api-server",
-  "version": "2.4.2",
+  "version": "2.4.3",
   "description": "Simple create api(Mohammad Nayan)",
   "main": "src/index.js",
   "scripts": {
@@ -55,7 +55,6 @@
     "form-data": "^4.0.0",
     "axios": "^1.6.5",
     "jsdom": "^24.1.0",
-    "request": "^2.88.2",
-    "nayan-media-downloader": ""
+    "request": "^2.88.2"
   }
 }
