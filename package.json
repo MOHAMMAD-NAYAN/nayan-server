@@ -1,5 +1,5 @@
 {
-  "name": "nayan-api-server",
+  "name": "nayan-apis-server",
   "version": "2.4.5",
   "description": "Simple create api(Mohammad Nayan)",
   "main": "src/index.js",
